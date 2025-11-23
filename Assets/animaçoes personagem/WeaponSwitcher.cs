@@ -1,33 +1,44 @@
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class WeaponSwitcher : MonoBehaviour
 {
-    public GameObject pistol;   // Arma antiga
-    public GameObject shotgun;  // Escopeta nova
+    [Header("Weapons")]
+    public GameObject pistol;
+    public GameObject shotgun;
+
+    [Header("UI")]
+    public Image weaponIndicator;     // O quadrado no canto da tela
+    public Sprite pistolSprite;       // Sprite para pistola
+    public Sprite shotgunSprite;      // Sprite para escopeta
 
     private GameObject activeWeapon;
 
     void Start()
     {
-        // Começa com a pistola ativada
         activeWeapon = pistol;
 
         pistol.SetActive(true);
         shotgun.SetActive(false);
+
+        weaponIndicator.sprite = pistolSprite;
+
+        UpdateAmmoUI();
     }
 
     void Update()
     {
-        // Aperta 1 → Pistola
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             SwitchWeapon(pistol);
+            weaponIndicator.sprite = pistolSprite;
         }
 
-        // Aperta 2 → Escopeta
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             SwitchWeapon(shotgun);
+            weaponIndicator.sprite = shotgunSprite;
         }
     }
 
@@ -38,7 +49,27 @@ public class WeaponSwitcher : MonoBehaviour
 
         activeWeapon.SetActive(false);
         newWeapon.SetActive(true);
-
         activeWeapon = newWeapon;
+
+        UpdateAmmoUI();
+    }
+
+    void UpdateAmmoUI()
+    {
+        // Verifica pistola
+        Gun gun = activeWeapon.GetComponent<Gun>();
+        if (gun != null)
+        {
+            gun.UpdateAmmoUI();
+            return;
+        }
+
+        // Verifica escopeta
+        Escopeta escopeta = activeWeapon.GetComponent<Escopeta>();
+        if (escopeta != null)
+        {
+            escopeta.UpdateAmmoUI();
+            return;
+        }
     }
 }

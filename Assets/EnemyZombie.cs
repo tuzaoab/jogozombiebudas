@@ -1,25 +1,33 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using System.Collections;
 
 public class EnemyZombie : MonoBehaviour
 {
+    [Header("Movement")]
     public float moveSpeed = 2f;
     public float chaseSpeed = 3f;
-
     public float patrolTime = 2f;
     public float waitTime = 2f;
-
     public float visionRange = 10f;
-
     public float yMin = -2f;
     public float yMax = 2f;
 
+    [Header("Combat")]
     public int maxHP = 3;
-    int currentHP;
-
     public float knockbackForce = 3f;
-
     public float attackCooldown = 1f;
+
+    [Header("VFX")]
+    public ParticleSystem bloodExplosion;
+
+    [Header("Blood Decals On Death")]
+    public GameObject[] bloodPrefabs;      // <-- SPRITES DE SANGUE
+    public float bloodSpawnRadius = 0.6f;  // <-- RAIO DO SPAWN
+    public float bloodYMin = -2f;          // <-- LIMITE Y
+    public float bloodYMax = 2f;           // <-- LIMITE Y
+    public int bloodAmount = 3;            // <-- QUANTIDADE
+
+    int currentHP;
     float nextAttackTime = 0f;
 
     Rigidbody2D rb;
@@ -33,15 +41,15 @@ public class EnemyZombie : MonoBehaviour
     Character playerCharacter;
     Transform playerTransform;
 
-    // ===========================================
-    // ADIÇÃO NECESSÁRIA PARA O SPAWNER FUNCIONAR
-    // ===========================================
     [HideInInspector] public ZombieSpawner spawner;
-    // ===========================================
+
+    Animator animator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
+
         rb.gravityScale = 0f;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
 
@@ -61,7 +69,7 @@ public class EnemyZombie : MonoBehaviour
         }
 
         patrolTimer = patrolTime;
-        waitTimer = 0f;
+        waitTimer = waitTime;
         patrolDir = NewPatrolDirection();
     }
 
@@ -86,12 +94,17 @@ public class EnemyZombie : MonoBehaviour
             Patrol();
     }
 
+    // ========== PATROL ==========
     void Patrol()
     {
+        bool moving = false;
+
         patrolTimer -= Time.deltaTime;
 
         if (patrolTimer > 0f)
         {
+            moving = true;
+
             Vector2 pos = rb.position;
             pos += patrolDir * moveSpeed * Time.deltaTime;
 
@@ -114,21 +127,20 @@ public class EnemyZombie : MonoBehaviour
                 patrolDir = NewPatrolDirection();
             }
         }
+
+        animator.SetBool("isMoving", moving);
     }
 
     Vector2 NewPatrolDirection()
     {
-        Vector2 dir = new Vector2(
-            Random.Range(-1f, 1f),
-            Random.Range(-1f, 1f)
-        );
-
+        Vector2 dir = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
         if (dir.magnitude < 0.1f)
             dir = Vector2.right;
 
         return dir.normalized;
     }
 
+    // ========== CHASE ==========
     void ChasePlayer()
     {
         Vector2 dir = ((Vector2)playerTransform.position - rb.position).normalized;
@@ -137,24 +149,28 @@ public class EnemyZombie : MonoBehaviour
         pos.y = Mathf.Clamp(pos.y, yMin, yMax);
 
         rb.MovePosition(pos);
+
+        animator.SetBool("isMoving", true);
     }
 
+    // ========== DAMAGE ==========
     public void TakeDamage(int amount, Vector2 knockDir)
     {
         currentHP -= amount;
 
-        // ===========================================
-        // AVISA O SPAWNER QUANDO MORRER
-        // ===========================================
         if (currentHP <= 0)
         {
             if (spawner != null)
                 spawner.currentZombies--;
 
+            if (bloodExplosion != null)
+                Instantiate(bloodExplosion, transform.position, Quaternion.identity);
+
+            SpawnBloodOnGround();
+
             Destroy(gameObject);
             return;
         }
-        // ===========================================
 
         rb.AddForce(knockDir.normalized * knockbackForce, ForceMode2D.Impulse);
 
@@ -162,10 +178,35 @@ public class EnemyZombie : MonoBehaviour
         StartCoroutine(DamageFlash());
     }
 
+    // ========== NEW: BLOOD DECALS ==========
+    void SpawnBloodOnGround()
+    {
+        if (bloodPrefabs.Length == 0) return;
+
+        for (int i = 0; i < bloodAmount; i++)
+        {
+            Vector2 offset = Random.insideUnitCircle * bloodSpawnRadius;
+
+            Vector2 spawnPos = new Vector2(
+                transform.position.x + offset.x,
+                Mathf.Clamp(transform.position.y + offset.y, bloodYMin, bloodYMax)
+            );
+
+            GameObject prefab = bloodPrefabs[Random.Range(0, bloodPrefabs.Length)];
+
+            GameObject decal = Instantiate(prefab, spawnPos, Quaternion.identity);
+
+            // rotaÃ§Ã£o e escala aleatÃ³ria
+            decal.transform.rotation = Quaternion.Euler(0, 0, Random.Range(0f, 360f));
+            float s = Random.Range(0.8f, 1.3f);
+            decal.transform.localScale = new Vector3(s, s, 1);
+        }
+    }
+
     IEnumerator DamageFlash()
     {
-        for (int i = 0; i < sprites.Length; i++)
-            sprites[i].color = Color.red;
+        foreach (var s in sprites)
+            s.color = Color.red;
 
         yield return new WaitForSeconds(0.12f);
 
@@ -173,6 +214,7 @@ public class EnemyZombie : MonoBehaviour
             sprites[i].color = originalColors[i];
     }
 
+    // ========== ATTACK ==========
     void OnTriggerStay2D(Collider2D other)
     {
         if (playerCharacter == null) return;

@@ -235,7 +235,7 @@ public class Escopeta : MonoBehaviour
         }
     }
 
-    void UpdateAmmoUI()
+    public void UpdateAmmoUI()
     {
         if (ammoText != null)
         {

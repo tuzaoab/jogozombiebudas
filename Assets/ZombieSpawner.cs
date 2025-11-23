@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ZombieSpawner : MonoBehaviour
 {
@@ -8,6 +8,13 @@ public class ZombieSpawner : MonoBehaviour
 
     [HideInInspector] public int currentZombies = 0;
     private float timer = 0f;
+
+    [Header("Spawn Settings")]
+    public float spawnRadius = 5f;
+
+    [Header("Player Safe Zone")]
+    public Transform playerTransform;
+    public float minDistanceFromPlayer = 3f;
 
     void Update()
     {
@@ -22,27 +29,53 @@ public class ZombieSpawner : MonoBehaviour
 
     void SpawnZombie()
     {
-        Vector2 spawnPos = new Vector2(
-            transform.position.x + Random.Range(-5f, 5f),
-            transform.position.y + Random.Range(-5f, 5f)
-        );
+        Vector2 spawnPos = Vector2.zero;
+        bool validPos = false;
+
+        // Evita spawnar perto demais do player (tenta até 15 vezes)
+        for (int i = 0; i < 15; i++)
+        {
+            Vector2 randomOffset = Random.insideUnitCircle * spawnRadius;
+            spawnPos = (Vector2)transform.position + randomOffset;
+
+            if (playerTransform == null)
+                break;
+
+            float distanceToPlayer = Vector2.Distance(spawnPos, playerTransform.position);
+
+            if (distanceToPlayer >= minDistanceFromPlayer)
+            {
+                validPos = true;
+                break;
+            }
+        }
+
+        if (!validPos)
+            return; // Não achou posição segura
 
         GameObject z = Instantiate(zombiePrefab, spawnPos, Quaternion.identity);
 
-        // Mant�m a escala do prefab
         z.transform.localScale = zombiePrefab.transform.localScale;
 
-        // pega o script EnemyZombie
         EnemyZombie ez = z.GetComponent<EnemyZombie>();
+
         if (ez != null)
         {
-            ez.spawner = this;     // agora funciona
             currentZombies++;
         }
         else
         {
-            Debug.LogWarning("Zombie prefab n�o tem EnemyZombie. Adicione o script EnemyZombie ao prefab.");
+            Debug.LogWarning("Zombie prefab não tem EnemyZombie. Adicione o script EnemyZombie ao prefab.");
             Destroy(z);
         }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = new Color(1f, 0f, 0f, 0.25f);
+        Gizmos.DrawSphere(transform.position, spawnRadius);
+
+        Gizmos.color = new Color(0f, 0f, 1f, 0.25f);
+        Gizmos.DrawSphere(playerTransform != null ? playerTransform.position : transform.position, minDistanceFromPlayer);
     }
 }

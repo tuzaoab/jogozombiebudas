@@ -7,6 +7,7 @@ public class Character : MonoBehaviour
     public int currentHP;
 
     public bool isGameOver = false;
+    public bool isInvincible = false;
 
     void Start()
     {
@@ -16,6 +17,7 @@ public class Character : MonoBehaviour
     public void TakeDamage(int damage = 1)
     {
         if (isGameOver) return;
+        if (isInvincible) return;
 
         currentHP -= damage;
         if (currentHP < 0) currentHP = 0;

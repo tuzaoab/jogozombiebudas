@@ -206,7 +206,7 @@ public class Gun : MonoBehaviour
         }
     }
 
-    void UpdateAmmoUI()
+    public void UpdateAmmoUI()
     {
         if (ammoText != null)
         {
