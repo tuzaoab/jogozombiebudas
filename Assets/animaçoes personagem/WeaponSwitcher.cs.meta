@@ -6,6 +6,9 @@ MonoImporter:
   defaultReferences:
   - pistol: {instanceID: 0}
   - shotgun: {instanceID: 0}
+  - weaponIndicator: {instanceID: 0}
+  - pistolSprite: {instanceID: 0}
+  - shotgunSprite: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

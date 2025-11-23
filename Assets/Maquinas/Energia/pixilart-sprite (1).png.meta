@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 971520c4c79938945b63232a6eca2491
+guid: 966ca24cd0970b94ba92edfdfb30c10e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,526 +93,505 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HUDshotgun_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 46
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f88585de8cca974eb365dad03367b2c
-      internalID: 1029212141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_1
+      name: pixilart-sprite (1)_1
       rect:
         serializedVersion: 2
         x: 22
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91cc4e6f452fac449a8c0d11b7932f0e
-      internalID: 1609241247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_2
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2cd2a56bdcc7c941a0501e716379126
-      internalID: 2050055091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_3
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23e26feb77f0741438c987ba5899623e
-      internalID: -1615801449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_4
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d77cb55098f769a47b77b8bb41155c84
-      internalID: -1968015377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_5
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 0
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe82dda707756eb4ca489d6fdaae0bb2
-      internalID: -1923440910
+      spriteID: 973282e9d6750454aba18ac68d2a06b7
+      internalID: 333281714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUDshotgun_6
+      name: pixilart-sprite (1)_2
       rect:
         serializedVersion: 2
-        x: 79
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0238e4dc4aa6c1741afb2025718628a6
-      internalID: -2097176058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_7
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f83b5b2724c0a54f8aff4b7edc17bd0
-      internalID: 36275523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_8
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae836da1c66774c43abcc2385393c4f1
-      internalID: 316870436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_9
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f30d286840c8f24590587b38acc01dd
-      internalID: -1118239999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_10
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 0
+        x: 112
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2bacc803230d4d46a855978b225ee82
-      internalID: 2098008196
+      spriteID: 22ad706b0c77ebd47ba58548b217bb80
+      internalID: -1568645270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUDshotgun_11
+      name: pixilart-sprite (1)_3
       rect:
         serializedVersion: 2
-        x: 136
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ce7e0ba8e8c2494c871178f7542464f
-      internalID: -1099663635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_12
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd32318caf91ec547b148145ca86a0af
-      internalID: -1721051982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_13
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c030250ddb5e2dc4fae23866e826f823
-      internalID: -1955273708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_14
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 0
+        x: 202
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e274910da51afb64f997132a62bcf6ce
-      internalID: 64016257
+      spriteID: 733eb151609f3df46a61ba71c3547cd7
+      internalID: -861769153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUDshotgun_15
+      name: pixilart-sprite (1)_4
       rect:
         serializedVersion: 2
-        x: 189
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af94706ba781844499390e374517d5c0
-      internalID: -359013847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_16
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fc145ebe1aa00e4184f0cfe1cc632ec
-      internalID: -1849052911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_17
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 0
+        x: 292
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c58bd0bf9c35a3948b7ec39f28324c5b
-      internalID: -943133881
+      spriteID: 353dfba419dc96841bb001d50c24b90a
+      internalID: 820972691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUDshotgun_18
+      name: pixilart-sprite (1)_5
       rect:
         serializedVersion: 2
-        x: 243
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 765a5a02f310bd642b85fe46abd17a84
-      internalID: 1212025844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_19
-      rect:
-        serializedVersion: 2
-        x: 249
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea2f540b503e0024c92d0821902a9781
-      internalID: 2009156646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_20
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 0
+        x: 382
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d8dc2e5ef0cfbb4dbfcb0ba120f31e3
-      internalID: -1170776759
+      spriteID: 4b4d57dc841e55248aba0806f43ad6c4
+      internalID: 1565159819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUDshotgun_21
+      name: pixilart-sprite (1)_6
       rect:
         serializedVersion: 2
-        x: 295
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27034da13597e1348983bdcccf3213ba
-      internalID: 259504965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_22
-      rect:
-        serializedVersion: 2
-        x: 327
-        y: 0
+        x: 472
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dfade5ab6e2888458cac61a68c7d6a9
-      internalID: -1472234578
+      spriteID: 8ef9f3d36b41a6d439a132f3840d11b7
+      internalID: 537273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUDshotgun_23
+      name: pixilart-sprite (1)_7
       rect:
         serializedVersion: 2
-        x: 348
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1a876ad5aa2a8748b12a8cf24ba6d85
-      internalID: 1101041036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_24
-      rect:
-        serializedVersion: 2
-        x: 377
-        y: 0
+        x: 562
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed1f1dbc39732214abd5cbaa3eec8b9d
-      internalID: -636764276
+      spriteID: 5c8ad919650efaa4cb10af413487b7e8
+      internalID: -992510936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_8
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dc7a267f03a884392f48d156455bf9
+      internalID: 527180667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_9
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c427a1e39afe913449d9f0edaa8e58b8
+      internalID: 1151841163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_10
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804084a728cfc9146b1445c7048949f9
+      internalID: -1319447292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_11
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00949c744a353064b89b4184372d01c0
+      internalID: 1258076320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_12
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c264da912d483a46b69ae62dd097f07
+      internalID: 28528287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e946abd92d7f11c418a279a537be6a9f
+      internalID: 660436082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8594abdf6f66c342b06d4c85ba0416e
+      internalID: -954956418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba598cdb9fe6004c8a5f1ead2fa6bd6
+      internalID: -767543108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d114a75efaa3a42910575884fec2c6
+      internalID: 244990374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a15e494a173064468acb9edc4c918f3
+      internalID: 1070371839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de99101f3a10294fa85cf7a33ed4e1e
+      internalID: -666742110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9ce225f431c3046b74ce5427da8562
+      internalID: 113372602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e64af08717b342489717e642765513c
+      internalID: 1771405227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d010c4c041b7804c90317355e712892
+      internalID: -1766306579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4749bd686720ef8469d75a57615b45d4
+      internalID: 757311962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_23
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016dae31b14d7a04f86a6e1b68368544
+      internalID: -993726778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixilart-sprite (1)_24
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455c664eb8daf2d4bbf60d0f0f394dac
+      internalID: 247572136
       vertices: []
       indices: 
       edges: []
@@ -628,31 +607,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HUDshotgun_0: 1029212141
-      HUDshotgun_1: 1609241247
-      HUDshotgun_10: 2098008196
-      HUDshotgun_11: -1099663635
-      HUDshotgun_12: -1721051982
-      HUDshotgun_13: -1955273708
-      HUDshotgun_14: 64016257
-      HUDshotgun_15: -359013847
-      HUDshotgun_16: -1849052911
-      HUDshotgun_17: -943133881
-      HUDshotgun_18: 1212025844
-      HUDshotgun_19: 2009156646
-      HUDshotgun_2: 2050055091
-      HUDshotgun_20: -1170776759
-      HUDshotgun_21: 259504965
-      HUDshotgun_22: -1472234578
-      HUDshotgun_23: 1101041036
-      HUDshotgun_24: -636764276
-      HUDshotgun_3: -1615801449
-      HUDshotgun_4: -1968015377
-      HUDshotgun_5: -1923440910
-      HUDshotgun_6: -2097176058
-      HUDshotgun_7: 36275523
-      HUDshotgun_8: 316870436
-      HUDshotgun_9: -1118239999
+      pixilart-sprite (1)_0: -226666206
+      pixilart-sprite (1)_1: 333281714
+      pixilart-sprite (1)_10: -1319447292
+      pixilart-sprite (1)_11: 1258076320
+      pixilart-sprite (1)_12: 28528287
+      pixilart-sprite (1)_13: 660436082
+      pixilart-sprite (1)_14: -954956418
+      pixilart-sprite (1)_15: -767543108
+      pixilart-sprite (1)_16: 244990374
+      pixilart-sprite (1)_17: 1070371839
+      pixilart-sprite (1)_18: -666742110
+      pixilart-sprite (1)_19: 113372602
+      pixilart-sprite (1)_2: -1568645270
+      pixilart-sprite (1)_20: 1771405227
+      pixilart-sprite (1)_21: -1766306579
+      pixilart-sprite (1)_22: 757311962
+      pixilart-sprite (1)_23: -993726778
+      pixilart-sprite (1)_24: 247572136
+      pixilart-sprite (1)_3: -861769153
+      pixilart-sprite (1)_4: 820972691
+      pixilart-sprite (1)_5: 1565159819
+      pixilart-sprite (1)_6: 537273
+      pixilart-sprite (1)_7: -992510936
+      pixilart-sprite (1)_8: 527180667
+      pixilart-sprite (1)_9: 1151841163
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

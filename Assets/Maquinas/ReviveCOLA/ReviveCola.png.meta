@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1a7ed44cf5425794a9384f5ac4da6366
+guid: e7506c73562f57f40a748f65b4f53042
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -93,13 +93,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_0
+      name: ReviveCola_0
       rect:
         serializedVersion: 2
-        x: 25
-        y: 81
-        width: 14
-        height: 9
+        x: 33
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -107,20 +107,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 017a1c7870cb4c043a027bfd8b8131d9
-      internalID: 1614061200
+      spriteID: 8be4f2dbb7b271d42890b169c844dcf7
+      internalID: -1125431283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_1
+      name: ReviveCola_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 86
-        width: 10
-        height: 10
+        x: 144
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12964c1d8ee27ab4a84f4a71eca93936
-      internalID: -1287185727
+      spriteID: 28aa0d7fe4608dc498837d020fb44893
+      internalID: -1581774951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_2
+      name: ReviveCola_2
       rect:
         serializedVersion: 2
-        x: 58
-        y: 76
-        width: 6
-        height: 6
+        x: 255
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a47a8496c9f86cb4a974408ae5e6aa0e
-      internalID: 794297586
+      spriteID: 001833c4c7b7f304a96ec2bf9206bf6e
+      internalID: -1426873353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_3
+      name: ReviveCola_3
       rect:
         serializedVersion: 2
-        x: 73
-        y: 79
-        width: 8
-        height: 7
+        x: 366
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d209230029b8d174dbae6bb986a05d79
-      internalID: 481372754
+      spriteID: de2b38da74a33d14894ea1708116e0f7
+      internalID: 1816275470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_4
+      name: ReviveCola_4
       rect:
         serializedVersion: 2
-        x: 5
-        y: 64
-        width: 17
-        height: 13
+        x: 477
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3492b6eef1bbef140be2f19cd87732a7
-      internalID: -61106043
+      spriteID: 67957007ba9ef3b4eadc9b7e9e3d15a0
+      internalID: 776763162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_5
+      name: ReviveCola_5
       rect:
         serializedVersion: 2
-        x: 76
-        y: 67
-        width: 5
-        height: 5
+        x: 588
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4f9037de039c68409bbe47948ef98f7
-      internalID: -372864543
+      spriteID: 5209806f5a0cd6049bceac6b1b5c2a3f
+      internalID: -214197544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_6
+      name: ReviveCola_6
       rect:
         serializedVersion: 2
-        x: 39
-        y: 60
-        width: 9
-        height: 7
+        x: 699
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -233,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d8fbec12ff7a8c4389ce01216a2dab3
-      internalID: 2012528222
+      spriteID: 365e7fc9a8097824abcd15f24943fe95
+      internalID: -538316445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_7
+      name: ReviveCola_7
       rect:
         serializedVersion: 2
-        x: 84
-        y: 55
-        width: 8
-        height: 6
+        x: 810
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -254,20 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3157228a7fb2fb546bd8e5123e378646
-      internalID: -1780545955
+      spriteID: 8dfdcc4db855aae4f83589c84bd68f92
+      internalID: 1989911116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_8
+      name: ReviveCola_8
       rect:
         serializedVersion: 2
-        x: 17
-        y: 7
-        width: 28
-        height: 45
+        x: 921
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f05b7dd7b59b3bc47be6ce1e225d4c91
-      internalID: 237939937
+      spriteID: f6065c9efff4a0b4e92ad212193e19c3
+      internalID: 335313307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_9
+      name: ReviveCola_9
       rect:
         serializedVersion: 2
-        x: 58
-        y: 49
-        width: 7
-        height: 7
+        x: 1032
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6690fd5a81880d24dade8393633a65be
-      internalID: -2126884031
+      spriteID: 6c5a6f36ae35bf142ac4438be09bd758
+      internalID: -846693712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_10
+      name: ReviveCola_10
       rect:
         serializedVersion: 2
-        x: 52
-        y: 26
-        width: 10
-        height: 9
+        x: 1143
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,20 +317,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b231781a09bc4d4081eccfdddea0064
-      internalID: 1531250642
+      spriteID: aea71e72952586647b91959f10895d53
+      internalID: -753451607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_11
+      name: ReviveCola_11
       rect:
         serializedVersion: 2
-        x: 68
-        y: 31
-        width: 8
-        height: 11
+        x: 1254
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -338,20 +338,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e4a975725de4794d82945ae1e972f5f
-      internalID: 1743558989
+      spriteID: 169d40355c8d59f4e81418910d33a1ed
+      internalID: 415045790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_12
+      name: ReviveCola_12
       rect:
         serializedVersion: 2
-        x: 78
-        y: 29
-        width: 12
-        height: 13
+        x: 1365
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -359,20 +359,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25ccc57a1c1b9cd4190108955bfee9e5
-      internalID: -182640557
+      spriteID: 9637eca8cc00c184fbefc8be868e5ffe
+      internalID: 1414432346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_13
+      name: ReviveCola_13
       rect:
         serializedVersion: 2
-        x: 79
-        y: 28
-        width: 4
-        height: 5
+        x: 1476
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,20 +380,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73179a274473a834cb1f4e1ac5ecd621
-      internalID: 620842543
+      spriteID: 73a4524b6bb00ff4fbd21b6ad8fc91bb
+      internalID: 2094474787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_14
+      name: ReviveCola_14
       rect:
         serializedVersion: 2
-        x: 53
-        y: 15
-        width: 8
-        height: 10
+        x: 1587
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -401,20 +401,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8769eb9eabe4f2d458691c3c604f6f2f
-      internalID: 2056134453
+      spriteID: 21d4b5387ef76e14b95a7d34645a521d
+      internalID: -1210239156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_15
+      name: ReviveCola_15
       rect:
         serializedVersion: 2
-        x: 64
-        y: 14
-        width: 4
-        height: 10
+        x: 1698
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,20 +422,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76fa7d7291cdaf1499b7b76ee7aa7586
-      internalID: 1879327929
+      spriteID: ff1f5051de75d234dbbffaddf302d196
+      internalID: -1415587648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: caco de vidro e vidro quebrado_16
+      name: ReviveCola_16
       rect:
         serializedVersion: 2
-        x: 81
-        y: 3
-        width: 16
-        height: 14
+        x: 1809
+        y: 24
+        width: 46
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,8 +443,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03689e21b93297346a97fe02f94921d0
-      internalID: -1274268374
+      spriteID: edad17358f8c78542ae9a004514780da
+      internalID: -1092970463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReviveCola_17
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 24
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ee1634a87218540b3309a468189f90
+      internalID: 1003310572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReviveCola_18
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 24
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d07e0c78f5af64b8d1d7f1773c2b25
+      internalID: -1557584838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReviveCola_19
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 24
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe68da8e54dbcb345a520bc74dacbdf2
+      internalID: -1260583973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReviveCola_20
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 24
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72de0951ed2d44f4384977db231f28c9
+      internalID: -1578742584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReviveCola_21
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 24
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2356dd10adabbcd49bd5a1630f6f53f7
+      internalID: -1872000539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReviveCola_22
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 24
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c84cbadf7321c4182903d53e49b365
+      internalID: -1848954096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReviveCola_23
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 24
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724dbc1742994814dbd9ef51cfbd7cb7
+      internalID: 1948297706
       vertices: []
       indices: 
       edges: []
@@ -460,23 +607,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      caco de vidro e vidro quebrado_0: 1614061200
-      caco de vidro e vidro quebrado_1: -1287185727
-      caco de vidro e vidro quebrado_10: 1531250642
-      caco de vidro e vidro quebrado_11: 1743558989
-      caco de vidro e vidro quebrado_12: -182640557
-      caco de vidro e vidro quebrado_13: 620842543
-      caco de vidro e vidro quebrado_14: 2056134453
-      caco de vidro e vidro quebrado_15: 1879327929
-      caco de vidro e vidro quebrado_16: -1274268374
-      caco de vidro e vidro quebrado_2: 794297586
-      caco de vidro e vidro quebrado_3: 481372754
-      caco de vidro e vidro quebrado_4: -61106043
-      caco de vidro e vidro quebrado_5: -372864543
-      caco de vidro e vidro quebrado_6: 2012528222
-      caco de vidro e vidro quebrado_7: -1780545955
-      caco de vidro e vidro quebrado_8: 237939937
-      caco de vidro e vidro quebrado_9: -2126884031
+      ReviveCola_0: -1125431283
+      ReviveCola_1: -1581774951
+      ReviveCola_10: -753451607
+      ReviveCola_11: 415045790
+      ReviveCola_12: 1414432346
+      ReviveCola_13: 2094474787
+      ReviveCola_14: -1210239156
+      ReviveCola_15: -1415587648
+      ReviveCola_16: -1092970463
+      ReviveCola_17: 1003310572
+      ReviveCola_18: -1557584838
+      ReviveCola_19: -1260583973
+      ReviveCola_2: -1426873353
+      ReviveCola_20: -1578742584
+      ReviveCola_21: -1872000539
+      ReviveCola_22: -1848954096
+      ReviveCola_23: 1948297706
+      ReviveCola_3: 1816275470
+      ReviveCola_4: 776763162
+      ReviveCola_5: -214197544
+      ReviveCola_6: -538316445
+      ReviveCola_7: 1989911116
+      ReviveCola_8: 335313307
+      ReviveCola_9: -846693712
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

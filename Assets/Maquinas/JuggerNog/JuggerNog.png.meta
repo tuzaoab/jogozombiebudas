@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 971520c4c79938945b63232a6eca2491
+guid: 75cfc5e74882bb24d973d56cb030cbd7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,526 +93,505 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HUDshotgun_0
+      name: JuggerNog_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
+        x: 27
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f88585de8cca974eb365dad03367b2c
-      internalID: 1029212141
+      spriteID: a1717c419455c25448a54feb31ee95d6
+      internalID: 900478988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUDshotgun_1
+      name: JuggerNog_1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91cc4e6f452fac449a8c0d11b7932f0e
-      internalID: 1609241247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_2
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2cd2a56bdcc7c941a0501e716379126
-      internalID: 2050055091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_3
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23e26feb77f0741438c987ba5899623e
-      internalID: -1615801449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_4
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d77cb55098f769a47b77b8bb41155c84
-      internalID: -1968015377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_5
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 0
+        x: 127
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe82dda707756eb4ca489d6fdaae0bb2
-      internalID: -1923440910
+      spriteID: 6aec6bc8c095b0b418e3f2de8ddcee05
+      internalID: -1214498713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUDshotgun_6
+      name: JuggerNog_2
       rect:
         serializedVersion: 2
-        x: 79
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0238e4dc4aa6c1741afb2025718628a6
-      internalID: -2097176058
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_7
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f83b5b2724c0a54f8aff4b7edc17bd0
-      internalID: 36275523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_8
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae836da1c66774c43abcc2385393c4f1
-      internalID: 316870436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_9
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f30d286840c8f24590587b38acc01dd
-      internalID: -1118239999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_10
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 0
+        x: 227
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2bacc803230d4d46a855978b225ee82
-      internalID: 2098008196
+      spriteID: 50bad734ff9f94744818b3226a086954
+      internalID: -902236772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUDshotgun_11
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ce7e0ba8e8c2494c871178f7542464f
-      internalID: -1099663635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_12
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd32318caf91ec547b148145ca86a0af
-      internalID: -1721051982
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_13
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c030250ddb5e2dc4fae23866e826f823
-      internalID: -1955273708
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_14
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 0
-        width: 46
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e274910da51afb64f997132a62bcf6ce
-      internalID: 64016257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_15
-      rect:
-        serializedVersion: 2
-        x: 189
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af94706ba781844499390e374517d5c0
-      internalID: -359013847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_16
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fc145ebe1aa00e4184f0cfe1cc632ec
-      internalID: -1849052911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_17
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 0
-        width: 46
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c58bd0bf9c35a3948b7ec39f28324c5b
-      internalID: -943133881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_18
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 765a5a02f310bd642b85fe46abd17a84
-      internalID: 1212025844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_19
-      rect:
-        serializedVersion: 2
-        x: 249
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea2f540b503e0024c92d0821902a9781
-      internalID: 2009156646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_20
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 0
-        width: 46
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d8dc2e5ef0cfbb4dbfcb0ba120f31e3
-      internalID: -1170776759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_21
-      rect:
-        serializedVersion: 2
-        x: 295
-        y: 0
-        width: 4
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27034da13597e1348983bdcccf3213ba
-      internalID: 259504965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HUDshotgun_22
+      name: JuggerNog_3
       rect:
         serializedVersion: 2
         x: 327
-        y: 0
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dfade5ab6e2888458cac61a68c7d6a9
-      internalID: -1472234578
+      spriteID: faaca0dbc597ec240891bdc8544c4d21
+      internalID: -1859110062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUDshotgun_23
+      name: JuggerNog_4
       rect:
         serializedVersion: 2
-        x: 348
-        y: 0
-        width: 4
-        height: 9
+        x: 427
+        y: 8
+        width: 46
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1a876ad5aa2a8748b12a8cf24ba6d85
-      internalID: 1101041036
+      spriteID: 276d58a585e97f04d8309b4d851f340a
+      internalID: 1042158179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HUDshotgun_24
+      name: JuggerNog_5
       rect:
         serializedVersion: 2
-        x: 377
-        y: 0
+        x: 527
+        y: 8
         width: 46
-        height: 21
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed1f1dbc39732214abd5cbaa3eec8b9d
-      internalID: -636764276
+      spriteID: 495404e98e35851418a885978763ae58
+      internalID: 405079073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_6
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca175d59b42dc24abce569d4de4e566
+      internalID: -1661927890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_7
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de709f8c34affa478059088bfff4ac8
+      internalID: -2058312216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_8
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d893916fccf837a4abd80b0b18ed4fca
+      internalID: -866686882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_9
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a69ea1f5523c174f80719ba0aabad63
+      internalID: 1199473296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_10
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add90c74ba7c352419e243455ebcf53b
+      internalID: -62391295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_11
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848bb7ddf1b020e4abbc1386efec94c7
+      internalID: 1952970179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_12
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2221dee9ef5bbdb428b2bba3b2e93ab3
+      internalID: -495416747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_13
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcc5f4ec16b4a74e9644338edc31a00
+      internalID: -731630306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_14
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bc13b7feab0454fabc4d2f21c58998
+      internalID: -811858146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_15
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60073c8f7a8135d43afd5a8736f91fb1
+      internalID: 270642461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_16
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8acfdd15192b048a5ddc4011e10cdc
+      internalID: -19948149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_17
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69a6cde5975c1744892ed1d510bf770
+      internalID: -1372097443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_18
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d484d6fff7f9f7f47b2c8bae0c2275c2
+      internalID: -1777941291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_19
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119f61db43dca1142a08dea71c113ea9
+      internalID: 473900362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_20
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cc9c31db73218409c2b6d5beedde1a
+      internalID: 1911512595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_21
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe664a8a892ccd4aad40e8ab81cda34
+      internalID: -1227666485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_22
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3c137db0250b24f87d760b817bf0a5
+      internalID: 627637670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JuggerNog_23
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 8
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac60f1a1f3064a84891e9af0e8f39fd2
+      internalID: 1247699523
       vertices: []
       indices: 
       edges: []
@@ -628,31 +607,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HUDshotgun_0: 1029212141
-      HUDshotgun_1: 1609241247
-      HUDshotgun_10: 2098008196
-      HUDshotgun_11: -1099663635
-      HUDshotgun_12: -1721051982
-      HUDshotgun_13: -1955273708
-      HUDshotgun_14: 64016257
-      HUDshotgun_15: -359013847
-      HUDshotgun_16: -1849052911
-      HUDshotgun_17: -943133881
-      HUDshotgun_18: 1212025844
-      HUDshotgun_19: 2009156646
-      HUDshotgun_2: 2050055091
-      HUDshotgun_20: -1170776759
-      HUDshotgun_21: 259504965
-      HUDshotgun_22: -1472234578
-      HUDshotgun_23: 1101041036
-      HUDshotgun_24: -636764276
-      HUDshotgun_3: -1615801449
-      HUDshotgun_4: -1968015377
-      HUDshotgun_5: -1923440910
-      HUDshotgun_6: -2097176058
-      HUDshotgun_7: 36275523
-      HUDshotgun_8: 316870436
-      HUDshotgun_9: -1118239999
+      JuggerNog_0: 900478988
+      JuggerNog_1: -1214498713
+      JuggerNog_10: -62391295
+      JuggerNog_11: 1952970179
+      JuggerNog_12: -495416747
+      JuggerNog_13: -731630306
+      JuggerNog_14: -811858146
+      JuggerNog_15: 270642461
+      JuggerNog_16: -19948149
+      JuggerNog_17: -1372097443
+      JuggerNog_18: -1777941291
+      JuggerNog_19: 473900362
+      JuggerNog_2: -902236772
+      JuggerNog_20: 1911512595
+      JuggerNog_21: -1227666485
+      JuggerNog_22: 627637670
+      JuggerNog_23: 1247699523
+      JuggerNog_3: -1859110062
+      JuggerNog_4: 1042158179
+      JuggerNog_5: 405079073
+      JuggerNog_6: -1661927890
+      JuggerNog_7: -2058312216
+      JuggerNog_8: -866686882
+      JuggerNog_9: 1199473296
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
