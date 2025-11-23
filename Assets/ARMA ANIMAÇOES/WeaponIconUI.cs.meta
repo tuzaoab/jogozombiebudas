@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8092843a145235445a004e0b0116359a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - weaponImage: {fileID: 6364916964495767677, guid: 46df9a4a78cebe6498bf87c12f2bcb48, type: 3}
+  - pistolSprite: {fileID: 69107876, guid: 71985a9ad4bfb2c45812e7fcde3f754a, type: 3}
+  - shotgunSprite: {fileID: -1898083374, guid: 47b3f520af735c24492c997b10226657, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
